@@ -1,11 +1,12 @@
 <div class="container">
     <div class="row my-4">
         <div class="col-12">
-            <div class="card mb-3" style="max-width: 900px;">
+            <div class="card mb-3" style="max-width: 100%;">
                 <div class="row ml-3">
                     <h1 class="mx-2">{{detalle.titulo}}</h1><h2 class="mt-1">({{detalle.fecha}})</h2>
-                    <hr>
+                    
                 </div>
+                <hr>
                 <div class="row no-gutters">
                   <div class="col-md-4">
                     <img src="{{detalle.img}}" class="card-img" alt="...">
@@ -14,8 +15,10 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title"><b>{{detalle.titulo}}</b></h5>
+                      <hr>
                       <p class="card-text">{{detalle.descripcion}}</p>
                       <p class="card-text"><small class="text-muted">{{detalle.fecha}}</small></p>
+                      <img src="{{detalle.logo}}" class="card-img" style="width: 20rem;" alt="...">
                     </div>
                   </div>
                 </div>

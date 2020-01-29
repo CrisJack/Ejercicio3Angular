@@ -11,63 +11,72 @@ export class RopasService {
       img:'assets/img/blusa.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/asc.png'
     },
     {
       id:1,
       img:'assets/img/camisa.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/vicky.jpg'
     },
     {
       id:2,
       img:'assets/img/falda.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/asc.png'
     },
     {
       id:3,
       img:'assets/img/pantalon.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/vicky.jpg'
     },
     {
       id:4,
       img:'assets/img/polera.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/asc.png'
     },
     {
       id:5,
       img:'assets/img/polo.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/vicky.jpg'
     },
     {
       id:6,
       img:'assets/img/short.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/asc.png'
     },
     {
       id:7,
       img:'assets/img/vestido.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/vicky.jpg'
     },
     {
       id:8,
       img:'assets/img/zapatilla.jpg',
       titulo:"Blusa",
       descripcion:"Ropa es el nombre genérico que reciben las prendas de vestir. Se trata de productos confeccionados con distintas clases de tejidos para cubrirse el cuerpo y abrigarse. ... Puede decirse que la ropa cumple con dos grandes funciones.",
-      fecha:"1986-12-10"
+      fecha:"1986-12-10",
+      logo:'assets/img/asc.png'
     },
   ]
 
