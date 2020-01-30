@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-auto m-4" *ngFor="let ropa of buscar, let i = index">
+        <div class="col-auto m-4" *ngFor="let ropa of buscar,">
             <div  class="card" style="width: 18rem;">
                 <img src="{{ropa.img}}" class="card-img-top" alt="imagen">
                 <div class="card-body">
@@ -8,8 +8,9 @@
                   <p class="card-text">{{ropa.descripcion}}</p>
                   <p class="text-muted">
                     {{ropa.fecha}}
-                  </p>
-                  <button (click)="verDetalle(i)" type="button" class="btn btn-outline-info btn-block">ver más...</button>
+                  </p>                  
+                  <button (click)="verDetalle(ropa.id)" type="button" class="btn btn-outline-info btn-block">ver más...</button>
+                  <button [routerLink]="['/ropas']" type="button" class="btn btn-danger my-2 btn-block">Regresar a Galeria</button>
                 </div>
               </div>
               
