@@ -13,6 +13,7 @@ import { RopasComponent } from './components/ropas/ropas.component';
 import { AboutComponent } from './components/about/about.component';
 import { NofoundComponent } from './components/nofound/nofound.component';
 import { DetalleComponent } from './components/detalle/detalle.component';
+import { BuscarComponent } from './components/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DetalleComponent } from './components/detalle/detalle.component';
     RopasComponent,
     AboutComponent,
     NofoundComponent,
-    DetalleComponent
+    DetalleComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,

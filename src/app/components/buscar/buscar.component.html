@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-auto m-4" *ngFor="let ropa of buscar, let i = index">
+            <div  class="card" style="width: 18rem;">
+                <img src="{{ropa.img}}" class="card-img-top" alt="imagen">
+                <div class="card-body">
+                  <h5 class="card-title">{{ropa.titulo}}</h5>
+                  <p class="card-text">{{ropa.descripcion}}</p>
+                  <p class="text-muted">
+                    {{ropa.fecha}}
+                  </p>
+                  <button (click)="verDetalle(i)" type="button" class="btn btn-outline-info btn-block">ver más...</button>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+</div>
+

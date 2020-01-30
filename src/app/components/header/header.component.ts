@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RopasService } from '../../servicios/ropas.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  ropas:any[]=[];
+
+  constructor(private _ropasServicios:RopasService, private _ruta:Router) {
+     
+      this.ropas= _ropasServicios.getRopas();
+   }
 
   ngOnInit() {
+  }
+
+  buscarRopa(palabra:string){
+    this._ruta.navigate(['buscar',palabra])
   }
 
 }

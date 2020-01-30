@@ -5,6 +5,7 @@ import {RopasComponent} from './components/ropas/ropas.component';
 import {AboutComponent} from './components/about/about.component';
 import {NofoundComponent} from './components/nofound/nofound.component';
 import { DetalleComponent } from './components/detalle/detalle.component';
+import { BuscarComponent } from './components/buscar/buscar.component';
     import { from } from 'rxjs';
 
 
@@ -22,6 +23,7 @@ const APP_ROUTE: Routes = [
     {path:'about',component:AboutComponent,},
     {path:'ropas',component:RopasComponent,},
     {path:"detalle/:id",component:DetalleComponent},
+    {path:"buscar/:titulo",component:BuscarComponent},
     // {path:'footer',component:FooterComponent,},
     // {path:'header',component:HeaderComponent},    
     {path:'**',component:NofoundComponent},
